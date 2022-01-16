@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="BoxPlayer Player1" id="Player1">
+            <div>
+                <h1>JOUEUR 1</h1>
+                <i class="fa fa-linux"></i>
+            </div><br>
+            <div class="Attempts" id="tempScorePlayer1">0</div>
+            <div class="score" id="score1">
+                0
+            </div>
+            <div class="winerbox">
+                WINNER
+            </div>
+        </div>
+        <div class="BoxPlayer Player2 " id="Player2">
+            <div>
+                <h1 >JOUEUR 2</h1>
+                <i class="fa fa-linux"></i>
+            </div><br>
+            <div class="Attempts" id="tempScorePlayer2">0</div>
+            <div class="score" id="score2">
+                0
+            </div>
+            <div class="winerbox">
+                WINNER
+            </div>
+        </div>
+        <div class="middleElements">
+            <div class="title">
+                <img src="diceFaces/file.png" alt="">
+                <button id="nouveauButton"  >NOUVEAU</button>
+            </div>
+            <div>
+                <img class="dice" id="imageDace" src="diceFaces/white.png" alt="" srcset="">
+            </div>
+            <div class="lance">
+                <img  src="diceFaces/magic-wand-icon-20.jpg" alt="" srcset="">
+                <button id="lanceButton" type="submit">LANCE</button>
+            </div>
+            <div class="passe">
+                <img  src="diceFaces/arrows.png" alt="">
+                <button id="passeButton" type="submit">PASSE</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
