@@ -1,7 +1,7 @@
-Application de jeu de dés
-    Le bouton “NOUVEAU” pour démarrer une nouvelle partie (Qui jouera en premier est choisi au hasard).
-    Le bouton “LANCE” pour lancer un Dé .
-    Le bouton “PASSE “pour donner la main à l’autre joueur.
-    Le Tux vert et l'arrière-plan gris pour indiquer le joueur en cours.
-    Les deux zones rouges contiennent la somme des nombres obtenus par chaque joueur dans son tour (tempScore).
-    Les numéros en rouge sont les scores des deux joueurs.
+Dice game application 
+    The “NEW” button to start a new game (Who will play first is chosen at random).
+    The “LANCE” button to roll a dice.
+    The “PASSE” button to give the hand to the other player.
+    The green Tux and gray background to indicate the current player.
+    The two red areas contain the sum of the numbers obtained by each player in his turn.
+    The numbers in red are the scores of the two players.
